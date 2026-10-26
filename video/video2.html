@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>movieをhtmlに埋め込む</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Changa+One:ital@0;1&family=Henny+Penny&family=Montenegrin+Gothic+One&display=swap"
+        rel="stylesheet">
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+
+
+        /*動画の表示領域を変える方法「 object-fit: cover;」
+video/img にも使える */
+        .video_wapper {
+            width: 100%;
+            height: 100vh;
+            margin: 0 auto;
+            position: fixed;
+            top: 0;
+            left: 0;
+            z-index: -1;
+        }
+
+        video {
+            /* 子要素のここは固定そしてマスト。考えるべきは親の要素（幅や高さ） */
+            object-fit: cover;
+            object-position: 60% 50%;
+            /* X方向　Y方向 */
+            width: 100%;
+            height: 100P;
+        }
+
+        .text_wapper {
+            width: 50%;
+            padding: 200px 100px;
+            background-color: #ffffff77;
+            backdrop-filter: blur(10px);/*  */
+            font-family: "Playfair Display", serif;
+        }
+
+        h1 {
+            font-size: 48px;
+            margin-bottom: 50px;
+
+        }
+
+        p {
+            font-size: 18px;
+            line-height: 2;
+
+
+        }
+    </style>
+
+
+</head>
+
+
+<body>
+    <div class="video_wapper">
+        <video src="img/Ring-tailed lemur.mp4" autoplay muted loop playsinline></video>
+    </div>
+
+    <div class="text_wapper">
+        <h1>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus, porro! </h1>
+
+        <P>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Libero molestiae placeat quam. Molestias at vitae
+            debitis aspernatur, laborum odit nesciunt magnam unde, praesentium architecto corporis fugiat itaque ea
+            voluptate sit. Eligendi quaerat aliquid inventore rem commodi ad quisquam officia omnis, nam voluptatem
+            suscipit nesciunt vero. Dignissimos laudantium architecto aspernatur quam vel ab, fugiat dolorem cupiditate
+            asperiores harum deleniti at ex molestias eaque alias non animi, corrupti amet blanditiis assumenda
+            similique quasi sint? Sunt, recusandae? Omnis, iste? Doloribus cumque assumenda nisi voluptas tenetur
+            voluptate modi debitis ipsa quasi eaque aspernatur voluptatum saepe sit sunt, a eius inventore excepturi
+            architecto. Eligendi ut, nesciunt pariatur quia a cupiditate sequi magnam libero accusantium dicta error
+            incidunt autem? Molestiae repellat libero explicabo sequi tenetur veritatis molestias excepturi, tempora
+            maxime. Quasi fugiat deserunt ad vel est unde. Similique, blanditiis. Expedita consequuntur neque voluptas
+            minus deserunt doloribus reiciendis id facere dolorum commodi maiores deleniti sit, voluptate error. Eum
+            similique non numquam eligendi, quaerat veniam repellendus ut accusamus, perferendis eius suscipit veritatis
+            nobis. Molestiae voluptate iure provident ex molestias nobis fuga ad, rem laudantium dignissimos quae
+            distinctio quas mollitia dolores esse laboriosam sit! Iusto at accusamus officia necessitatibus? Deleniti
+            error iure aliquam consequatur, amet neque vel repellat earum?</P>
+
+
+
+
+    </div>
+</body>
+
+</html>
