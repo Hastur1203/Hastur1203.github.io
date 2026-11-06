@@ -15,7 +15,7 @@ const products = [
     },
     {
         name: "もくもくランプ",
-        category: "TABLE / 03",
+        category: "LAMP / 03",
         description: "空を漂う雲のランプがみんなを温かく照らします。",
         image: "img/img_lamp.webp",
         alt: "くものランプ"

@@ -101,7 +101,7 @@ button {
     display: block;
     margin-top: 7px;
     font-family: var(--font-ja);
-    font-size: 8px;
+    font-size:10px;
     letter-spacing: .07em;
 }
 
@@ -239,7 +239,7 @@ button {
     margin: 28px 0 0;
     color: var(--muted);
     font-family: var(--font-en);
-    font-size: 10px;
+    font-size: 14px;
 }
 
 .note-sparkle {
@@ -365,7 +365,7 @@ button {
     gap: 12px;
     color: var(--muted);
     font-family: var(--font-en);
-    font-size: 9px;
+    font-size: 16px;
     letter-spacing: .08em;
 }
 
@@ -457,7 +457,7 @@ button {
 .faq-heading h2 {
     margin: 0;
     font-size: clamp(27px, 3.2vw, 41px);
-    font-weight: 400;
+    font-weight: 600;
     letter-spacing: .04em;
     line-height: 1.65;
 }
@@ -620,7 +620,7 @@ button {
 .feature-card h3 {
     margin: 6px 0 12px;
     font-size: 17px;
-    font-weight: 400;
+    font-weight: 600;
     line-height: 1.8;
 }
 
@@ -665,7 +665,7 @@ button {
 .items-intro {
     margin: 0 4% 5px 0;
     color: #718084;
-    font-size: 12px;
+    font-size: 18px;
     line-height: 2;
 }
 
@@ -751,14 +751,14 @@ button {
 .product-copy h3 {
     margin: 0;
     font-size: clamp(23px, 2.6vw, 33px);
-    font-weight: 400;
+    font-weight: 700;
     letter-spacing: .04em;
 }
 
 .product-copy p {
     margin: 16px 0 22px;
     color: #6d7a7d;
-    font-size: 12px;
+    font-size: 18px;
     line-height: 2.2;
 }
 
